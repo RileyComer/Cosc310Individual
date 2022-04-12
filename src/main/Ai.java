@@ -50,7 +50,6 @@ public class Ai {
   			}
   			//out=inputLine;
   			out=content;
-  			System.out.println(content);
   			in.close();
   			HashMap<String, Object> map = new HashMap<String, Object>();
             ObjectMapper mapper = new ObjectMapper();
@@ -59,7 +58,6 @@ public class Ai {
             List translations=(List) data.get("translations");
             Map words =(Map)translations.get(0);
             translate=(String) words.get("translatedText");
-            System.out.println(translate);
   		}catch(Exception e) {
   			e.printStackTrace();
   		}finally {
