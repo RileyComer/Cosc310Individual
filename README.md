@@ -7,11 +7,11 @@ The chat bot also provides, in the console, data of messages sent.
 Lib: https://opennlp.apache.org/
 Tutorial: https://www.tutorialspoint.com/opennlp/opennlp_environment.htm
 
-##API
+## API
 I used the google translate API
 I did not use any other API's due to issues of finding java documentation.
 
-##Features
+## Features
 I used the google translate API to transform my english based chat bot into a german based chat bot. This feature allows me to transform the chat bot to be compatable with any language. It is currently only set to work with german but that can be changed to any language.
 
 ## GUI
